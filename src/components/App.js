@@ -1,4 +1,4 @@
-import React, { useState,useReducer } from "react";
+import React, { useState,useEffect } from "react";
 import "./../styles/App.css";
 
 
@@ -244,7 +244,6 @@ function App() {
   
 	return (
 	  <div id="main">
-  
 	   States: <select id="state" onChange={stateChanged}>
 		  {getState}
 		</select>
